@@ -1,0 +1,31 @@
+# 项目配置
+project:
+  name: "NLP Comment Analysis"
+  description: "英文有害评论识别 + 情感分析"
+
+# 数据路径
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  toxicity: "data/raw/toxic_en.csv"
+  sentiment: "data/raw/imdb.csv"
+
+# 模型路径
+models:
+  toxicity_dir: "models/toxicity"
+  sentiment_dir: "models/sentiment"
+
+# 文本预处理
+preprocessing:
+  max_length: 256
+
+# 训练参数
+training:
+  batch_size: 32
+  learning_rate: 2e-5
+  epochs: 5
+  early_stopping_patience: 3
+
+# BERT模型
+bert:
+  model_name: "bert-base-uncased"

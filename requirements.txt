@@ -1,0 +1,11 @@
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+torch>=2.0.0
+transformers>=4.30.0
+streamlit>=1.28.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+pyyaml>=6.0
+datasets>=2.14.0
+nltk>=3.8.0
